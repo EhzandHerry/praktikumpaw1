@@ -1,24 +1,27 @@
 package com.helloworld;
 
-public class SwitchLambada {
+public class SwitchTanpaYield {
     public static void main(String[] args) {
         var nilai = "A";
+        String ucapan;
 
         switch (nilai) {
             case "A":
-                System.out.println("Wow anda lulus dengan baik");
+                ucapan = "Wow Anda Lulus dengan Baik";
                 break;
             case "B":
             case "C":
-                System.out.println("Anda Lulus");
+                ucapan = "Anda Lulus";
                 break;
             case "D":
-                System.out.println("Anda Tidak Lulus");
+                ucapan = "Anda Tidak Lulus";
                 break;
             default:
-                System.out.println("Mungkin anda salah jurusan");
+                ucapan = "Mungkin Anda Salah jurusan";
                 break;
         }
+
+        System.out.println(ucapan);
     }
 }
 

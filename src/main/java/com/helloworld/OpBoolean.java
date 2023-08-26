@@ -2,7 +2,7 @@ package com.helloworld;
 
 public class OpBoolean {
     public static void main(String[] args) {
-        var absen = 70;
+        var absen = 75;
         var nilaiAkhir = 80;
 
         var lulusAbsen = absen >= 75;
